@@ -1,0 +1,27 @@
+.container{
+    display:flex;
+    /* background-color: green; */
+    justify-content: space-around;
+    height:500px;
+    width: 100vw;
+}
+
+.image{
+    height: 475px;
+    width: 400px;
+    margin-top:10px;
+    background-color: hotpink;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: thin;
+    height:60px;
+}
+
+.feature-title{
+    font-weight: normal;
+    margin-top:4px;
+}
