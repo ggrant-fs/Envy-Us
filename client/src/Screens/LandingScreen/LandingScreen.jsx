@@ -15,12 +15,23 @@ const LandingScreen = () => {
                 <div className='feature-container'>
                     <h1 className='feature-title'>Featured News</h1>
                 </div>
+                <section className='section-container'>
+                    <div id='test'></div>
+                    <div id='test'></div>
+                    <div id='test'></div>
+                    <div id='test'></div>
+
+                </section>
+                {/* <hr /> */}
+                <section className='section-container2'>
+                    <div id='test'></div>
+                    <div id='test'></div>
+                    <div id='test'></div>
+                    <div id='test'></div>
+                </section>
                 <div className='mustRead-container'>
                     <h1 className='must-read'>Must Read</h1>
                 </div>
-                <section>
-
-                </section>
             </Layout>
         </React.Fragment>
     );

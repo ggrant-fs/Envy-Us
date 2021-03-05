@@ -12,38 +12,38 @@ const main = async () =>{
     [
         {
             "imgUrl":"",
-            "catagory":"",
-            "caption":"",
+            "catagory":"News",
+            "caption":"Paris brings fashion in the spring",
             "author":"Kendra Calvin"
         },
         {
             "imgUrl":"",
-            "catagory":"",
-            "caption":"",
+            "catagory":"Fashion",
+            "caption":"The new look in Milan for 2021",
             "author":"Donna Wright"
         },
         {
             "imgUrl":"",
-            "catagory":"",
-            "caption":"",
+            "catagory":"Fashion",
+            "caption":"Chic and Vintage looks",
             "author":"Zack Donnely"
         },
         {
             "imgUrl":"",
-            "catagory":"",
-            "caption":"",
+            "catagory":"Fashion",
+            "caption":"The new Dulce & Gabbana line",
             "author":"Cindy Summers"
         },
         {
             "imgUrl":"",
-            "catagory":"",
-            "caption":"",
+            "catagory":"News",
+            "caption":"Did COVID kill fashion",
             "author":"Dana Givens "
         },
         {
             "imgUrl":"",
-            "catagory":"",
-            "caption":"",
+            "catagory":"Fashion",
+            "caption":"Fashion week 2021",
             "author":"Samuel Sonders"
         },
         {

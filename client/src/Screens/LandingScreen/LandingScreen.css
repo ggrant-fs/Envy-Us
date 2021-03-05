@@ -32,3 +32,19 @@
     font-weight: normal;
     margin-top:4px;
 }
+.section-container,.section-container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.section-container2{
+    margin-top: 30px;
+}
+#test{
+    background-color: aqua;
+    height:350px;
+    width: 300px;
+}
