@@ -14,61 +14,61 @@ const main = async () =>{
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Kendra Calvin"
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Donna Wright"
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Zack Donnely"
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Cindy Summers"
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Dana Givens "
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Samuel Sonders"
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Alex Dunn"
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Jenny House"
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Patrick Conn"
         },
         {
             "imgUrl":"",
             "catagory":"",
             "caption":"",
-            "author":""
+            "author":"Guy McDonald"
         },
         {
             "imgUrl":"",
