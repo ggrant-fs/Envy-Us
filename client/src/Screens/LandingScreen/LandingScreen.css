@@ -20,7 +20,7 @@
 #img-3{
     background-image: url('https://i.imgur.com/taubdcw.png');
 }
-.feature-container{
+.feature-container,.mustRead-container{
     display: flex;
     justify-content: center;
     border-style: solid;
@@ -28,7 +28,7 @@
     height:60px;
 }
 
-.feature-title{
+.feature-title,.must-read{
     font-weight: normal;
     margin-top:4px;
 }

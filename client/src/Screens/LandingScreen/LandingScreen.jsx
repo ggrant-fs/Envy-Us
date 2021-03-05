@@ -16,8 +16,11 @@ const LandingScreen = () => {
                     <h1 className='feature-title'>Featured News</h1>
                 </div>
                 <div className='mustRead-container'>
-                    <h1 className='Must-Read'>Must Read</h1>
+                    <h1 className='must-read'>Must Read</h1>
                 </div>
+                <section>
+
+                </section>
             </Layout>
         </React.Fragment>
     );
