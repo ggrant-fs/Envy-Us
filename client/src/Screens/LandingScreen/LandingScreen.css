@@ -10,9 +10,16 @@
     height: 475px;
     width: 400px;
     margin-top:10px;
-    background-color: hotpink;
 }
-
+#img-1{
+    background-image: url('https://i.imgur.com/KsWckDO.png');
+}
+#img-2{
+    background-image: url('https://i.imgur.com/NtbjEBS.png');
+}
+#img-3{
+    background-image: url('https://i.imgur.com/taubdcw.png');
+}
 .feature-container{
     display: flex;
     justify-content: center;

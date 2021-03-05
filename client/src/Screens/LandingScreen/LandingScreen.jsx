@@ -8,9 +8,9 @@ const LandingScreen = () => {
         <React.Fragment>
             <Layout>
                 <div className='container'>
-                    <div className='image'></div>
-                    <div className='image'></div>
-                    <div className='image'></div>
+                    <div id='img-1' className='image'></div>
+                    <div id='img-2' className='image'></div>
+                    <div id='img-3' className='image'></div>
                 </div>
                 <div className='feature-container'>
                     <h1 className='feature-title'>Featured News</h1>
