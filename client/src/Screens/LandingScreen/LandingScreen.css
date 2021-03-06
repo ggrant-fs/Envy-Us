@@ -45,10 +45,33 @@
 .section-container2{
     margin-top: 30px;
 }
-#test{
-    background-color: aqua;
+.test{
     height:350px;
     width: 300px;
     opacity: 0;
     transition: 0.4s opacity;
+}
+#test-1{
+    background-image: url('https://i.imgur.com/VnaQxCz.png');
+}
+#test-2{
+    background-image: url('https://i.imgur.com/QVUKvWE.png');
+}
+#test-3{
+    background-image: url('https://i.imgur.com/kJ3nUX4.png');
+}
+#test-4{
+    background-image: url('https://i.imgur.com/yAj55h3.png?1');
+}
+#test-5{
+    background-image: url('https://i.imgur.com/qFtG5es.png');
+}
+#test-6{
+    background-image: url('https://i.imgur.com/yAj55h3.png?1');
+}
+#test-7{
+    background-image: url('https://i.imgur.com/wZBQKQ2.png?1');
+}
+#test-8{
+    background-image: url('https://i.imgur.com/2yemljv.png');
 }
