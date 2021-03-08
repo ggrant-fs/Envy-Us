@@ -1,8 +1,8 @@
 const Article = require('../models/articles')
 //require db connection  here
-
+const db = require('../db/connection')
 //db.on connection here
-
+db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 //this get all articles
 const getArticles = async(req,res) =>{
     try {

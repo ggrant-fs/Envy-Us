@@ -11,13 +11,13 @@ const main = async () =>{
     const articles =
     [
         {
-            "imgUrl":"",
+            "imgUrl":"https://i.imgur.com/ZC6xloz.png",
             "catagory":"News",
             "caption":"Paris brings fashion in the spring",
             "author":"Kendra Calvin"
         },
         {
-            "imgUrl":"",
+            "imgUrl":"https://i.imgur.com/lptCnWC.png",
             "catagory":"Fashion",
             "caption":"The new look in Milan for 2021",
             "author":"Donna Wright"
@@ -29,53 +29,24 @@ const main = async () =>{
             "author":"Zack Donnely"
         },
         {
-            "imgUrl":"",
+            "imgUrl":"https://i.imgur.com/6JaDvGg.png",
             "catagory":"Fashion",
             "caption":"The new Dulce & Gabbana line",
             "author":"Cindy Summers"
         },
         {
-            "imgUrl":"",
+            "imgUrl":"https://i.imgur.com/1ZqG3Zd.png",
             "catagory":"News",
             "caption":"Did COVID kill fashion",
-            "author":"Dana Givens "
+            "author":"Dana McCarthy "
         },
         {
-            "imgUrl":"",
+            "imgUrl":"https://i.imgur.com/A0PAOpQ.png",
             "catagory":"Fashion",
             "caption":"Fashion week 2021",
             "author":"Samuel Sonders"
         },
-        {
-            "imgUrl":"",
-            "catagory":"",
-            "caption":"",
-            "author":"Alex Dunn"
-        },
-        {
-            "imgUrl":"",
-            "catagory":"",
-            "caption":"",
-            "author":"Jenny House"
-        },
-        {
-            "imgUrl":"",
-            "catagory":"",
-            "caption":"",
-            "author":"Patrick Conn"
-        },
-        {
-            "imgUrl":"",
-            "catagory":"",
-            "caption":"",
-            "author":"Guy McDonald"
-        },
-        {
-            "imgUrl":"",
-            "catagory":"",
-            "caption":"",
-            "author":""
-        },
+        
     ]
     await Article.insertMany(articles)
     console.log('created articles!')
