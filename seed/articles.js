@@ -1,9 +1,9 @@
-//require db on this line
+
 const db = require('../db/connection')
-// const { db } = require('../models/articles')
+
 const Article= require('../models/articles')
 
-//db.on connection 
+
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 
