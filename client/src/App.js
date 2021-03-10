@@ -3,12 +3,14 @@ import Nav from './Components/Nav/Nav'
 import Footer from './Components/Footer/Footer'
 import Layout from './Components/Layout/Layout'
 import LandingScreen from './Screens/LandingScreen/LandingScreen'
+import {getArticles} from './services/articles'
+
 
 function App() {
   return (
     <div className="App">
      <Route exact path='/'>
-       <LandingScreen/>
+       <LandingScreen getArticle={getArticles}/>
      </Route>
      <Route path='/nav'>
        <Nav/>

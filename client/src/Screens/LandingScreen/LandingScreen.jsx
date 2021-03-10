@@ -3,8 +3,8 @@ import './LandingScreen.css'
 import Layout from '../../Components/Layout/Layout'
 import fadin from 'fadin'
 
-const LandingScreen = () => {
-
+const LandingScreen = (props) => {
+    console.log(props)
     //this function is creating the delay in the photos
     document.addEventListener('DOMContentLoaded', () => {
         fadin('.image', { delay: 200 })
@@ -17,7 +17,14 @@ const LandingScreen = () => {
         <React.Fragment>
             <Layout>
                 <div className='container'>
-                    <div id='img-1' className='image'></div>
+                    <div>
+                        <div id='img-1' className='image'></div>
+                        <div>
+                            <h2>test</h2>
+                            <p>testing 123</p>
+                        </div>
+                    </div>
+
                     <div id='img-2' className='image'></div>
                     <div id='img-3' className='image'></div>
                 </div>

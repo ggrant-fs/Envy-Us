@@ -11,4 +11,5 @@ const Article = new Schema(
     {timestamps:true}
 )
 
-module.exports = mongoose.model('articles',Article)
+// module.exports = mongoose.model('articles',Article)
+module.exports = mongoose.model('articles', Article)
