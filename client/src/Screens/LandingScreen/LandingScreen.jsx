@@ -20,8 +20,8 @@ const LandingScreen = (props) => {
                     <div>
                         <div id='img-1' className='image'></div>
                         <div>
-                            <h2>test</h2>
-                            <p>testing 123</p>
+                            <h2>push was successful </h2>
+                            {/* <p>testing 123</p> */}
                         </div>
                     </div>
 
