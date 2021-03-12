@@ -23,12 +23,6 @@ const main = async () =>{
             "caption":"The new look in Milan for 2021",
             "author":"Donna Wright"
         },
-        // {
-        //     "imgUrl":"",
-        //     "category":"Fashion",
-        //     "caption":"Chic and Vintage looks",
-        //     "author":"Zack Donnely"
-        // },
         {
             "imgUrl":"https://i.imgur.com/6JaDvGg.png",
             "category":"Fashion",

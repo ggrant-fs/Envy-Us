@@ -14,8 +14,12 @@ const LandingScreen = (props) => {
         fadin('.test', { delay: 300 })
     })
 
-    document.addEventListener('DOMConetentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
         fadin('.caption-div', { delay: 300 })
+    })
+
+    document.addEventListener('DOMContentLoaded', () => {
+        fadin('.caption-span', { delay: 300 })
     })
     return (
         <React.Fragment>
@@ -35,25 +39,127 @@ const LandingScreen = (props) => {
                             <span className='caption-span'>
                                 <h2>Fashion</h2>
                             </span>
+                            <p className='subcaption'>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed
+                                iusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad
+                                minim veniam
+                            </p>
                         </div>
                     </div>
-
+                    {/* space */}
                     <div>
                         <div className='test' id='test-2'></div>
                         <div className='caption-div' >
                             <span className='caption-span'>
                                 <h2>Media</h2>
                             </span>
+                            <p className='subcaption'>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed
+                                iusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad
+                                minim veniam
+                            </p>
                         </div>
                     </div>
-                    <div className='test' id='test-3'></div>
-                    <div className='test' id='test-4'></div>
+                    <div>
+                        <div className='test' id='test-3'></div>
+                        <div className='caption-div'>
+                            <span>
+                                <h2 className='caption-span'>Culture</h2>
+                            </span>
+                            <p className='subcaption'>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed
+                                iusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad
+                                minim veniam
+                            </p>
+                        </div>
+                    </div>
+                    {/* space */}
+                    <div>
+                        <div className='test' id='test-4'></div>
+                        <div className='caption-div'>
+                            <span className='caption-span'>
+                                <h2>Arts</h2>
+                            </span>
+                            <p className='subcaption'>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed
+                                iusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad
+                                minim veniam
+                            </p>
+                        </div>
+                    </div>
                 </section>
                 <section className='section-container2'>
-                    <div className='test' id='test-5'></div>
-                    <div className='test' id='test-6'></div>
-                    <div className='test' id='test-7'></div>
-                    <div className='test' id='test-8'></div>
+                    <div>
+                        <div className='test' id='test-5'></div>
+                        <div className='caption-div'>
+                            <span className='caption-span'>
+                                <h2>Culture</h2>
+                            </span>
+                            <p className='subcaption'>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed
+                                iusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad
+                                minim veniam
+                            </p>
+                        </div>
+                    </div>
+                    {/* space */}
+                    <div>
+                        <div className='test' id='test-6'></div>
+                        <div className='caption-div'>
+                            <span className='caption-span'>
+                                <h2>Fashion</h2>
+                            </span>
+                            <p className='subcaption'>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed
+                                iusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad
+                                minim veniam
+                            </p>
+                        </div>
+                    </div>
+                    {/* space */}
+                    <div>
+                        <div className='test' id='test-7'></div>
+                        <div className='caption-div'>
+                            <span className='caption-span'>
+                                <h2>opinion</h2>
+                            </span>
+                            <p className='subcaption'>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed
+                                iusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad
+                                minim veniam
+                            </p>
+                        </div>
+                    </div>
+                    {/* space */}
+                    <div>
+                        <div className='test' id='test-8'></div>
+                        <div className='caption-div'>
+                            <span className='caption-span'>
+                                <h2>Music</h2>
+                            </span>
+                            <p className='subcaption'>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed
+                                iusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad
+                                minim veniam
+                            </p>
+                        </div>
+                    </div>
                 </section>
                 <div className='mustRead-container'>
                     <h1 className='must-read'>Must Read</h1>
