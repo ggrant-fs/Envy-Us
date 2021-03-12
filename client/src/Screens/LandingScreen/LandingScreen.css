@@ -48,6 +48,15 @@ p{
     margin-bottom: 20px;
 }
 
+.caption-div{
+ width: 300px;
+ /* background-color: aqua; */
+ opacity: 0;
+ transition: 4s opacity;
+}
+.caption-span{
+    text-decoration: underline;
+}
 .section-container2{
     margin-top: 30px;
 }
@@ -73,7 +82,7 @@ p{
     background-image: url('https://i.imgur.com/qFtG5es.png');
 }
 #test-6{
-    background-image: url('https://i.imgur.com/yAj55h3.png?1');
+    background-image: url('https://i.imgur.com/6JaDvGg.png');
 }
 #test-7{
     background-image: url('https://i.imgur.com/wZBQKQ2.png?1');

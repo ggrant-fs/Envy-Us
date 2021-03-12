@@ -13,18 +13,15 @@ const LandingScreen = (props) => {
     document.addEventListener('DOMContentLoaded', () => {
         fadin('.test', { delay: 300 })
     })
+
+    document.addEventListener('DOMConetentLoaded', () => {
+        fadin('.caption-div', { delay: 300 })
+    })
     return (
         <React.Fragment>
             <Layout>
                 <div className='container'>
-                    <div>
-                        <div id='img-1' className='image'></div>
-                        <div>
-                            <h2>push was successful </h2>
-                            {/* <p>testing 123</p> */}
-                        </div>
-                    </div>
-
+                    <div id='img-1' className='image'></div>
                     <div id='img-2' className='image'></div>
                     <div id='img-3' className='image'></div>
                 </div>
@@ -32,8 +29,23 @@ const LandingScreen = (props) => {
                     <h1 className='feature-title'>Featured News</h1>
                 </div>
                 <section className='section-container'>
-                    <div className='test' id='test-1'></div>
-                    <div className='test' id='test-2'></div>
+                    <div>
+                        <div className='test' id='test-1'></div>
+                        <div className='caption-div'>
+                            <span className='caption-span'>
+                                <h2>Fashion</h2>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className='test' id='test-2'></div>
+                        <div className='caption-div' >
+                            <span className='caption-span'>
+                                <h2>Media</h2>
+                            </span>
+                        </div>
+                    </div>
                     <div className='test' id='test-3'></div>
                     <div className='test' id='test-4'></div>
                 </section>
