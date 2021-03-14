@@ -7,7 +7,7 @@ const Nav = () => {
         <React.Fragment>
             <div>
                 <header className='header-container'>
-                    <h1>Envy Us</h1>
+                    <h1 id='site-title'>Envy Us</h1>
                 </header>
             </div>
             <hr />

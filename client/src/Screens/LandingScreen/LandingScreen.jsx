@@ -1,11 +1,12 @@
+import fadin from 'fadin'
 import React from 'react';
 import './LandingScreen.css'
+import ReactPlayer from 'react-player'
 import Layout from '../../Components/Layout/Layout'
-import fadin from 'fadin'
+
 
 const LandingScreen = (props) => {
-    console.log(props)
-    //this function is creating the delay in the photos
+
     document.addEventListener('DOMContentLoaded', () => {
         fadin('.image', { delay: 200 })
     })
@@ -46,9 +47,10 @@ const LandingScreen = (props) => {
                                 et dolore magna aliqua. Ut enim ad
                                 minim veniam
                             </p>
+                            <hr />
+                            <p>By Conner Spencer</p>
                         </div>
                     </div>
-                    {/* space */}
                     <div>
                         <div className='test' id='test-2'></div>
                         <div className='caption-div' >
@@ -62,6 +64,8 @@ const LandingScreen = (props) => {
                                 et dolore magna aliqua. Ut enim ad
                                 minim veniam
                             </p>
+                            <hr />
+                            <p>By Anna Dennis</p>
                         </div>
                     </div>
                     <div>
@@ -77,9 +81,10 @@ const LandingScreen = (props) => {
                                 et dolore magna aliqua. Ut enim ad
                                 minim veniam
                             </p>
+                            <hr />
+                            <p>By Tonya Lloyd</p>
                         </div>
                     </div>
-                    {/* space */}
                     <div>
                         <div className='test' id='test-4'></div>
                         <div className='caption-div'>
@@ -93,6 +98,8 @@ const LandingScreen = (props) => {
                                 et dolore magna aliqua. Ut enim ad
                                 minim veniam
                             </p>
+                            <hr />
+                            <p>By Cindy Tao</p>
                         </div>
                     </div>
                 </section>
@@ -110,9 +117,10 @@ const LandingScreen = (props) => {
                                 et dolore magna aliqua. Ut enim ad
                                 minim veniam
                             </p>
+                            <hr />
+                            <p>By Gabriel Washington</p>
                         </div>
                     </div>
-                    {/* space */}
                     <div>
                         <div className='test' id='test-6'></div>
                         <div className='caption-div'>
@@ -126,9 +134,10 @@ const LandingScreen = (props) => {
                                 et dolore magna aliqua. Ut enim ad
                                 minim veniam
                             </p>
+                            <hr />
+                            <p>By Betty Rouren</p>
                         </div>
                     </div>
-                    {/* space */}
                     <div>
                         <div className='test' id='test-7'></div>
                         <div className='caption-div'>
@@ -142,9 +151,10 @@ const LandingScreen = (props) => {
                                 et dolore magna aliqua. Ut enim ad
                                 minim veniam
                             </p>
+                            <hr />
+                            <p>By Oscar Nymar</p>
                         </div>
                     </div>
-                    {/* space */}
                     <div>
                         <div className='test' id='test-8'></div>
                         <div className='caption-div'>
@@ -158,12 +168,26 @@ const LandingScreen = (props) => {
                                 et dolore magna aliqua. Ut enim ad
                                 minim veniam
                             </p>
+                            <hr />
+                            <p>By Jonathan Lin</p>
                         </div>
                     </div>
                 </section>
                 <div className='mustRead-container'>
                     <h1 className='must-read'>Must Read</h1>
                 </div>
+                <section className='video'>
+                    <ReactPlayer
+                        url='https://youtu.be/XbWIe2KCxqg'
+                        width='87%'
+                        height='700px'
+                        controls={false}
+                        muted={true}
+                        playing={true}
+                        light={false}
+                        loop={true}
+                    />
+                </section>
             </Layout>
         </React.Fragment>
     );
