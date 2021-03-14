@@ -176,6 +176,16 @@ const LandingScreen = (props) => {
                 <div className='mustRead-container'>
                     <h1 className='must-read'>Must Read</h1>
                 </div>
+                <section>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </section>
+                <section>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </section>
                 <section className='video'>
                     <ReactPlayer
                         url='https://youtu.be/XbWIe2KCxqg'
