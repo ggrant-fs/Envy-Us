@@ -105,7 +105,49 @@ p{
     background-image: url('https://i.imgur.com/2yemljv.png');
 }
 
+.mustRead-article{
+    display: flex;
+    justify-content: space-between;
+}
+#mustRead1{
+    background-color: violet;
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#mustRead2{
+ background-color: violet;
+ height: 400px;
+ width:600px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+
+}
+#mustRead3{
+background-color: violet;
+height: 400px;
+width: 400px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+#mustRead4{
+ background-color: violet;
+ height:350px;
+ width:600px;
+ margin-bottom: 10px;
+}
+#mustRead5{
+background-color: violet;
+height:350px;
+width:810px;
+margin-bottom: 10px;
+}
+
 .video{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }

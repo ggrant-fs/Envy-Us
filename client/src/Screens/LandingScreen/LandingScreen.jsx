@@ -142,7 +142,7 @@ const LandingScreen = (props) => {
                         <div className='test' id='test-7'></div>
                         <div className='caption-div'>
                             <span className='caption-span'>
-                                <h2>opinion</h2>
+                                <h2>Opinion</h2>
                             </span>
                             <p className='subcaption'>
                                 Lorem ipsum dolor sit amet,
@@ -176,15 +176,14 @@ const LandingScreen = (props) => {
                 <div className='mustRead-container'>
                     <h1 className='must-read'>Must Read</h1>
                 </div>
-                <section>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <section className='mustRead-article'>
+                    <div id='mustRead1'></div>
+                    <div id='mustRead2'></div>
+                    <div id='mustRead3'></div>
                 </section>
-                <section>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <section className='mustRead-article'>
+                    <div id='mustRead4'></div>
+                    <div id='mustRead5'></div>
                 </section>
                 <section className='video'>
                     <ReactPlayer
