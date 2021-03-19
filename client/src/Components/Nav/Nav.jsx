@@ -14,10 +14,12 @@ const Nav = () => {
             <div className='nav-container'>
                 <nav>
                     <ul>
-                        <Link to='/' id='li-1' style={{ textDecoration: 'none' }}><li> Home |</li></Link>
-                        <Link to='/about' id='li-2' style={{ textDecoration: 'none' }}><li>About |</li></Link>
-                        <Link to='' id='li-3' style={{ textDecoration: 'none' }}><li>Mens |</li></Link>
-                        <Link to='' id='li-4' style={{ textDecoration: 'none' }}><li>Womens </li></Link>
+                        <Link to='/' id='li-1' style={{ textDecoration: 'none' }}><li> Louis Vuitton |</li></Link>
+                        <Link to='/about' id='li-2' style={{ textDecoration: 'none' }}><li>Gucci |</li></Link>
+                        <Link to='' id='li-3' style={{ textDecoration: 'none' }}><li>Dior |</li></Link>
+                        <Link to='' id='li-4' style={{ textDecoration: 'none' }}><li>Vouge |</li></Link>
+                        <Link to='' id='li-4' style={{ textDecoration: 'none' }}><li> Saint Lauren</li></Link>
+                        <Link to='' id='li-4' style={{ textDecoration: 'none' }}><li></li></Link>
                     </ul>
                 </nav>
             </div>

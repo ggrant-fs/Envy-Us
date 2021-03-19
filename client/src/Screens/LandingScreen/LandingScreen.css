@@ -11,17 +11,20 @@
 .container{
     display:flex;
     /* background-color: green; */
-    justify-content: space-around;
-    height:530px;
+    justify-content:space-evenly;
+    height:570px;
     width: 100vw;
 }
 
 .image{
-    height: 475px;
-    width: 400px;
+    height: 550px; 
+    width: 30vw;/*400px*/
     margin-top:10px;
     opacity: 0;
     transition: 4s opacity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 #img-1{
     background-image: url('https://i.imgur.com/KsWckDO.png');
@@ -107,42 +110,46 @@ p{
 
 .mustRead-article{
     display: flex;
-    justify-content: space-between;
+    justify-content:center ;
+}
+.break{
+    height: 400px;
+    width:15px;
 }
 #mustRead1{
-    background-color: violet;
+    background-color:gray;
     height: 400px;
-    width: 400px;
+    width: 29vw;/*400px*/
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #mustRead2{
- background-color: violet;
+ background-color:gray;
  height: 400px;
- width:600px;
+ width:31vw; 
  margin-top: 10px;
  margin-bottom: 10px;
 
 }
 #mustRead3{
-background-color: violet;
+background-color: gray;
 height: 400px;
-width: 400px;
+width: 29vw;
 margin-top: 10px;
 margin-bottom: 10px;
 
 }
 
 #mustRead4{
- background-color: violet;
+ background-color: gray;
  height:350px;
- width:600px;
+ width:40vw;
  margin-bottom: 10px;
 }
 #mustRead5{
-background-color: violet;
+background-color: gray;
 height:350px;
-width:810px;
+width:50vw;
 margin-bottom: 10px;
 }
 
@@ -151,3 +158,5 @@ margin-bottom: 10px;
     justify-content: center;
     margin-bottom: 10px;
 }
+
+

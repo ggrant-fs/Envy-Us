@@ -178,11 +178,14 @@ const LandingScreen = (props) => {
                 </div>
                 <section className='mustRead-article'>
                     <div id='mustRead1'></div>
+                    <div className='break'></div>
                     <div id='mustRead2'></div>
+                    <div className='break'></div>
                     <div id='mustRead3'></div>
                 </section>
                 <section className='mustRead-article'>
                     <div id='mustRead4'></div>
+                    <div className='break'></div>
                     <div id='mustRead5'></div>
                 </section>
                 <section className='video'>
@@ -197,6 +200,7 @@ const LandingScreen = (props) => {
                         loop={true}
                     />
                 </section>
+
             </Layout>
         </React.Fragment>
     );
