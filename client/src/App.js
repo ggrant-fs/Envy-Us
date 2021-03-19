@@ -14,17 +14,10 @@ function App() {
        <LandingScreen getArticle={getArticles}/>
      </Route>
        <Route path='/detail'>
+         {/* the path to details screen should later be : '/articles/:id' */}
      <DetailScreen/>
        </Route>
-     {/* <Route path='/nav'>
-       <Nav/>
-     </Route>
-     <Route path='/footer'>
-       <Footer/>
-     </Route>
-     <Route path='/layout'>
-      
-     </Route> */}
+  
     </div>
   );
 }
