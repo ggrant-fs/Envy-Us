@@ -9,7 +9,6 @@ const apiUrls ={
     //the the application is on the local host
     development: 'http://localhost:3000'
 }
-//https://git.heroku.com/envy-us-gary--app.git
 
 
 if (window.location.hostname === 'localhost') {
