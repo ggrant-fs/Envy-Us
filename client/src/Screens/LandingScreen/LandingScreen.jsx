@@ -1,7 +1,7 @@
 import fadin from 'fadin'
 import React from 'react';
 import './LandingScreen.css'
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 import Layout from '../../Components/Layout/Layout'
 
 
@@ -189,7 +189,7 @@ const LandingScreen = (props) => {
                     <div id='mustRead5'></div>
                 </section>
                 <section className='video'>
-                    <ReactPlayer
+                    {/* <ReactPlayer
                         url='https://youtu.be/XbWIe2KCxqg'
                         width='87%'
                         height='700px'
@@ -198,7 +198,7 @@ const LandingScreen = (props) => {
                         playing={true}
                         light={false}
                         loop={true}
-                    />
+                    /> */}
                 </section>
 
             </Layout>

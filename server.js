@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const db = require('./db/connection')
 const articles = require('./routes/articles')
-const PORT =  process.env.PORT || 3001
+const PORT =  process.env.PROD_MONGODB || 3001
 
 const app = express()
 
