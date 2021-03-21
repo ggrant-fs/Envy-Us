@@ -5,9 +5,9 @@ let apiUrl
 
 const apiUrls ={
     //when the application is on surge or netlify 
-    production: 'https://envy--us.herokuapp.com/',
+    production: 'https://envy--us.herokuapp.com',
     //the the application is on the local host
-    development: 'http://localhost:3000'
+    development: 'http://localhost:3000/'
 }
 
 
