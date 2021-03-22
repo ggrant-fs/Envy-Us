@@ -16,7 +16,7 @@ const Article = () => {
     }, [])
 
     const fashionArticle = articles.map((article) => (
-        <div key={article.id}>
+        <div key={article._id}>
             <img src={article.imgUrl} />
             <h2>{article.category}</h2>
             <p>{article.caption}</p>
