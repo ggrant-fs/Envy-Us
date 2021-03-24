@@ -14,7 +14,7 @@ const main = async () =>{
         {
             "imgUrl":"https://i.imgur.com/ZC6xloz.png",
             "category":"News",
-            "caption":"test successful",
+            "caption":"Hello world !",
             "author":"Kendra Calvin"
         },
         {

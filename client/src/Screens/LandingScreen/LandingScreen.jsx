@@ -3,6 +3,7 @@ import React from 'react';
 import './LandingScreen.css'
 import ReactPlayer from 'react-player'
 import Layout from '../../Components/Layout/Layout'
+import Article from '../../Components/Article/Article'
 
 
 const LandingScreen = (props) => {
@@ -187,6 +188,9 @@ const LandingScreen = (props) => {
                     <div id='mustRead4'></div>
                     <div className='break'></div>
                     <div id='mustRead5'></div>
+                </section>
+                <section>
+                    <Article />
                 </section>
                 <section className='video'>
                     <ReactPlayer
