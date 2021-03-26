@@ -15,7 +15,7 @@ const Article = () => {
         api()
     }, [])
 
-    const fashionArticle = articles.map((article) => (
+    const fashionArray = articles.map((article) => (
         <div key={article._id}>
             <img src={article.imgUrl} />
             <h2>{article.category}</h2>
@@ -24,12 +24,29 @@ const Article = () => {
             <p>by {article.author}</p>
         </div>
     ))
+
+    const fashionArray2 = articles.map((article) => (
+        <div key={article._id}>
+            <img src={article.imgUrl} />
+            <h2>{article.category}</h2>
+            <p>{article.caption}</p>
+            <hr />
+            <p>by {article.author}</p>
+        </div>
+    ))
+
+    const rowOne = fashionArray.slice(0, 4)
+    const rowTwo = fashionArray2.slice(5, 9)
+
     return (
         <React.Fragment>
             <div className='fashionArticle'>
-                {fashionArticle}
+                {rowOne}
             </div>
 
+            <div className='fashionArticle'>
+                {rowTwo}
+            </div>
         </React.Fragment>
     );
 };

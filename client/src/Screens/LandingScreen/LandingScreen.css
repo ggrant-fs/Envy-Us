@@ -120,14 +120,14 @@ p{
     width:15px;
 }
 #mustRead1{
-    background-color:gray;
+    background-image: url('https://i.imgur.com/FUApr36.png');
     height: 400px;
     width: 29vw;/*400px*/
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #mustRead2{
- background-color:gray;
+ background-image: url('https://i.imgur.com/BW9IsSC.png');
  height: 400px;
  width:31vw; 
  margin-top: 10px;
@@ -135,7 +135,7 @@ p{
 
 }
 #mustRead3{
-background-color: gray;
+background-image: url('https://i.imgur.com/kd3yww7.png');
 height: 400px;
 width: 29vw;
 margin-top: 10px;
@@ -144,13 +144,13 @@ margin-bottom: 10px;
 }
 
 #mustRead4{
- background-color: gray;
+background-image: url('https://i.imgur.com/4TDMPgy.png');
  height:350px;
  width:40vw;
  margin-bottom: 10px;
 }
 #mustRead5{
-background-color: gray;
+background-image: url('https://i.imgur.com/3ImspjX.png');
 height:350px;
 width:50vw;
 margin-bottom: 10px;

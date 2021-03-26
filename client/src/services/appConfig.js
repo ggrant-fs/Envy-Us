@@ -14,7 +14,7 @@ const apiUrls ={
 if (window.location.hostname === 'localhost') {
     apiUrl = apiUrls.production
 } else {
-    apiUrl = apiUrls.production
+    apiUrl = apiUrls.development
 }
 
 const api = axios.create({
