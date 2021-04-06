@@ -35,13 +35,22 @@
 #img-3{
     background-image: url('https://i.imgur.com/taubdcw.png');
 }
+#img-4{
+   background-image: url('https://i.imgur.com/dPuhqSr.png');
+}
+#img-5{
+  background-image: url('https://i.imgur.com/IIFmNj1.png');
+}
+#img-6{
+    background-image: url('https://i.imgur.com/NVTUsIg.png');
+}
 h2{
     margin:0;
 }
 p{
     margin:0;
 }
-.feature-container,.mustRead-container{
+.feature-container,.mustRead-container,.moreStories-container{
     display: flex;
     justify-content: center;
     border-style: solid;
@@ -49,7 +58,7 @@ p{
     height:60px;
 }
 
-.feature-title,.must-read{
+.feature-title,.must-read,.MoreStories-title{
     font-weight: normal;
     margin-top:4px;
 }
@@ -110,7 +119,10 @@ p{
 #test-8{
     background-image: url('https://i.imgur.com/2yemljv.png');
 }
-
+.mustRead-caption{
+    display: flex;
+    justify-content: center;
+}
 .mustRead-article{
     display: flex;
     justify-content:center ;
@@ -118,6 +130,11 @@ p{
 .break{
     height: 400px;
     width:15px;
+}
+#mustRead1,#mustRead2,#mustRead3,#mustRead4,#mustRead5{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 #mustRead1{
     background-image: url('https://i.imgur.com/FUApr36.png');
@@ -159,8 +176,10 @@ margin-bottom: 10px;
 .video{
     display: flex;
     justify-content: center;
+    margin-top:60px;
     margin-bottom: 10px;
 }
+
 
 
 /* notes for media quires */

@@ -178,16 +178,46 @@ const LandingScreen = (props) => {
                     <h1 className='must-read'>Must Read</h1>
                 </div>
                 <section className='mustRead-article'>
-                    <div id='mustRead1'></div>
+                    <div>
+                        <div id='mustRead1'></div>
+                        <div className='mustRead-caption'>
+                            <div>
+                                {/* <h2>The McQueen of punk fashion</h2> */}
+                            </div>
+                        </div>
+                    </div>
                     <div className='break'></div>
-                    <div id='mustRead2'></div>
+                    <div>
+                        <div id='mustRead2'></div>
+                        <div className='mustRead-caption'>
+                            <div>
+                                {/* <h2>Brooklyn's new underground fashion sceen</h2> */}
+                            </div>
+                        </div>
+                    </div>
                     <div className='break'></div>
-                    <div id='mustRead3'></div>
+                    <div>
+                        <div id='mustRead3'></div>
+                        <div className='mustRead-caption'>
+                            {/* <p>caption test 3</p> */}
+                        </div>
+                    </div>
                 </section>
                 <section className='mustRead-article'>
-                    <div id='mustRead4'></div>
+                    <div>
+                        <div id='mustRead4'></div>
+                        <div className='mustRead-caption'>
+                            {/* <p>caption test 4</p> */}
+                        </div>
+                    </div>
                     <div className='break'></div>
-                    <div id='mustRead5'></div>
+                    <div>
+                        <div id='mustRead5'></div>
+                        <div className='mustRead-caption'>
+                            {/* <h2>Designer Julio Delanio's new Spring Line at Rome</h2> */}
+                            {/* <p>caption test 5</p> */}
+                        </div>
+                    </div>
                 </section>
                 <section>
                     <Article />
@@ -203,6 +233,18 @@ const LandingScreen = (props) => {
                         light={false}
                         loop={true}
                     />
+                </section>
+
+                <div className='moreStories-container'>
+                    <h1 className='feature-title'>More Stores</h1>
+                </div>
+
+                <section>
+                    <div className='container'>
+                        <div id='img-4' className='image'></div>
+                        <div id='img-5' className='image'></div>
+                        <div id='img-6' className='image'></div>
+                    </div>
                 </section>
 
             </Layout>
