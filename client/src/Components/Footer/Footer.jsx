@@ -16,7 +16,53 @@ const Footer = () => {
     return (
         <React.Fragment>
             <footer>
+                <div className='list-container'>
+                    <div>
+                        <ul className='list'>
+                            <li>About Envy Us</li>
+                            <li>Careers</li>
+                            <li>Advertise</li>
+                            <li>Subscriptions</li>
+                            <li>Unsubscribe</li>
+                            <li>Privacy & Cookies</li>
+                            <li>FAQ's</li>
 
+                        </ul>
+                    </div>
+                    <div className='list'>
+                        <ul className='list'>
+                            <li>About Envy Us</li>
+                            <li>Careers</li>
+                            <li>Advertise</li>
+                            <li>Subscriptions</li>
+                            <li>Unsubscribe</li>
+                            <li>Privacy & Cookies</li>
+                            <li>FAQ's</li>
+                        </ul>
+                    </div>
+                    <div className='list'>
+                        <ul className='list'>
+                            <li>About Envy Us</li>
+                            <li>Careers</li>
+                            <li>Advertise</li>
+                            <li>Subscriptions</li>
+                            <li>Unsubscribe</li>
+                            <li>Privacy & Cookies</li>
+                            <li>FAQ's</li>
+                        </ul>
+                    </div>
+                    <div className='list'>
+                        <ul className='list'>
+                            <li>About Envy Us</li>
+                            <li>Careers</li>
+                            <li>Advertise</li>
+                            <li>Subscriptions</li>
+                            <li>Unsubscribe</li>
+                            <li>Privacy & Cookies</li>
+                            <li>FAQ's</li>
+                        </ul>
+                    </div>
+                </div>
             </footer>
         </React.Fragment>
     );
@@ -24,4 +70,3 @@ const Footer = () => {
 
 export default Footer;
 
-//#ff5a5f

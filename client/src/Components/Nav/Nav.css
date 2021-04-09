@@ -22,7 +22,7 @@ ul{
     margin-top:20px;
 }
 
-li{
+.nav-li{
     list-style: none;
     display: inline;
     font-size: 20px;
