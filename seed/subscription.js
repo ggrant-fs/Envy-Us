@@ -1,7 +1,8 @@
 const db = require('../db/connection')
-
 const Subscribe = require('../models/subscription')
 
+//db() Create a new Db instance.
+//db.on() Establish connection to db
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () =>{
@@ -54,6 +55,9 @@ const main = async () =>{
 
 const run = async () =>{
     await main()
+//db.close(): Closes the current db connection, 
+//including all the child db instances.
+// Emits close event and calls optional callback
     db.close()
 }
 
