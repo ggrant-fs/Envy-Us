@@ -24,12 +24,12 @@ const Subscribe = () => {
     }
     return (
         <React.Fragment>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <input
                     type="email"
                     name="email"
                     value={newSubscription.email}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                     placeHolder="Enter Email..."
                 />
             </form>

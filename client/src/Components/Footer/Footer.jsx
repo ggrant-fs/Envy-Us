@@ -1,9 +1,10 @@
 import React from 'react';
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './Footer.css'
 const Footer = () => {
     const [newSubscriber, setNewSubscriber] = useState({
-        email: ""
+        name: '',
+        email: ''
     })
 
     const handleChange = (event) => {
@@ -13,56 +14,43 @@ const Footer = () => {
             [name]: value
         })
     }
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+
+    }
+
     return (
         <React.Fragment>
-            <footer>
-                <div className='list-container'>
-                    <div>
-                        <ul className='list'>
-                            <li>About Envy Us</li>
-                            <li>Careers</li>
-                            <li>Advertise</li>
-                            <li>Subscriptions</li>
-                            <li>Unsubscribe</li>
-                            <li>Privacy & Cookies</li>
-                            <li>FAQ's</li>
+            <footer onSubmit={handleSubmit}>
 
-                        </ul>
+                <form>
+                    <lable htmlfor='email'></lable>
+                    <div className='input-container'>
+                        <input
+                            className='form-input'
+                            type='email'
+                            name='email'
+                            value={newSubscriber.name}
+                            onChange={handleChange}
+                            placeHolder='Enter Your Email Address'
+                        />
+                        <lable></lable>
+                        <input
+                            className='form-input'
+                            type='text'
+                            name='name'
+                            value={newSubscriber.name}
+                            onChange={handleChange}
+                            placeHolder='Enter Your Name'
+                        />
                     </div>
-                    <div className='list'>
-                        <ul className='list'>
-                            <li>About Envy Us</li>
-                            <li>Careers</li>
-                            <li>Advertise</li>
-                            <li>Subscriptions</li>
-                            <li>Unsubscribe</li>
-                            <li>Privacy & Cookies</li>
-                            <li>FAQ's</li>
-                        </ul>
+                    <div className='button-container'>
+                        <div>
+                            <button type='submit' id='submit-button'>Sign Up</button>
+                        </div>
                     </div>
-                    <div className='list'>
-                        <ul className='list'>
-                            <li>About Envy Us</li>
-                            <li>Careers</li>
-                            <li>Advertise</li>
-                            <li>Subscriptions</li>
-                            <li>Unsubscribe</li>
-                            <li>Privacy & Cookies</li>
-                            <li>FAQ's</li>
-                        </ul>
-                    </div>
-                    <div className='list'>
-                        <ul className='list'>
-                            <li>About Envy Us</li>
-                            <li>Careers</li>
-                            <li>Advertise</li>
-                            <li>Subscriptions</li>
-                            <li>Unsubscribe</li>
-                            <li>Privacy & Cookies</li>
-                            <li>FAQ's</li>
-                        </ul>
-                    </div>
-                </div>
+                </form>
             </footer>
         </React.Fragment>
     );
