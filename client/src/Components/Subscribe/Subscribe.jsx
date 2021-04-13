@@ -1,10 +1,39 @@
 import React from 'react';
+import { useState, useEffect } from 'react'
+import { createSubscription } from '../../services/subscribe'
 
 const Subscribe = () => {
-    return (
-        <div>
+    const [newSubscription, setNewSubscription] = useState({
+        email: ''
+    })
 
-        </div>
+    const [isCreated, setIsCreated] = useState(false)
+
+
+    const handleChange = async (event) => {
+        const { name, value } = event.target
+        setNewSubscription({
+            ...setEmail,
+            [name]: value
+        })
+    }
+
+    const handleSubmit = async (event) => {
+        event.preventDefault()
+        const created = await createSubscription(subsciption)
+    }
+    return (
+        <React.Fragment>
+            <form onSubmit={handleSubmit}>
+                <input
+                    type="email"
+                    name="email"
+                    value={newSubscription.email}
+                    onChange={handleChange}
+                    placeHolder="Enter Email..."
+                />
+            </form>
+        </React.Fragment>
     );
 };
 

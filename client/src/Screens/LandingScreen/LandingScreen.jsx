@@ -236,7 +236,7 @@ const LandingScreen = (props) => {
                 </section>
 
                 <div className='moreStories-container'>
-                    <h1 className='feature-title'>More Stores</h1>
+                    <h1 className='MoreStories-title'>More Stores</h1>
                 </div>
 
                 <section>
