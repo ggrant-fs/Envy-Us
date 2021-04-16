@@ -23,7 +23,7 @@ const Footer = () => {
     return (
         <React.Fragment>
             <footer>
-
+               <div id='form-spacing'></div>
                 <form onSubmit={handleSubmit}>
                     <div className='form-title'>
                         <div className='title-div'>
@@ -33,7 +33,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <lable htmlfor='email'></lable>
+
                     <div className='input-container'>
                         <input
                             className='form-input'
@@ -43,8 +43,7 @@ const Footer = () => {
                             onChange={handleChange}
                             placeHolder='Enter Your Email Address'
                         />
-
-                        <lable></lable>
+                        <div id='input-spacing'></div>
                         <input
                             className='form-input'
                             type='text'

@@ -9,6 +9,12 @@ footer{
     
 }
 
+#form-spacing{
+    display: flex;
+    height: 60vh;
+    /* background-color:antiquewhite; */
+    width:5vw;
+}
 form{
     /* background-color: aqua; */
     width: 500px;
@@ -38,6 +44,11 @@ form{
     justify-content: center;
     /* height:50px; */
   
+}
+
+#input-spacing{
+    display: flex;
+    width: 7vh;
 }
 .form-input{
     height:50px;
