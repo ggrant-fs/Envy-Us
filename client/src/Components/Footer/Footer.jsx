@@ -91,6 +91,42 @@ const Footer = () => {
                         </div>
                     </div>
                 </form>
+                {/* column 1 */}
+                <div>
+
+                </div>
+                {/* column 2 */}
+                <div>
+
+                </div>
+                {/* column 3 */}
+                <div>
+
+                </div>
+                <div className='column' id='column-1'>
+                    <div>
+                    <h5>Newsletter</h5>
+                    <h5>Pressroom</h5>
+                    <h5>Events & Promotions</h5>
+                    <h5>Subscriptions</h5>
+                    </div>
+                </div>
+                <div className='column' id='column-2'>
+                    <div>
+                    <h5>About Envy us</h5>
+                    <h5>Customer care</h5>
+                    <h5>Contact us</h5>
+                    <h5>Careers</h5>
+                    </div>
+                </div>
+                <div className='column' id='column-3'>
+                    <div>
+                    <h5>Fashion</h5>
+                    <h5>Beauty</h5>
+                    <h5>Culture</h5>
+                    <h5>Magazine</h5>
+                    </div>
+                </div>
             </footer>
         </React.Fragment>
     );
