@@ -109,3 +109,12 @@ form{
 #column-3{
     /* background-color: bisque; */
 }
+.terms-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+}
+.terms{
+    color:white;
+
+}

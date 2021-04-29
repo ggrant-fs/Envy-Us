@@ -91,15 +91,15 @@ const Footer = () => {
                         </div>
                     </div>
                 </form>
-                {/* column 1 */}
+                column 1
                 <div>
 
                 </div>
-                {/* column 2 */}
+                column 2
                 <div>
 
                 </div>
-                {/* column 3 */}
+                column 3
                 <div>
 
                 </div>
@@ -127,6 +127,7 @@ const Footer = () => {
                     <h5>Magazine</h5>
                     </div>
                 </div>
+                
             </footer>
         </React.Fragment>
     );
