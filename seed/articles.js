@@ -46,6 +46,7 @@ const main = async () =>{
     console.log('created articles!')
 }
 
+//closes the connection
 const run = async () =>{
     await main()
     db.close()
